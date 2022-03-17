@@ -8,6 +8,7 @@ public class Main {
         if (n < 2) {
             return n;
         } else {
+            // recursion call
             return (fibo(n - 1) + fibo(n - 2));
         }
     }
