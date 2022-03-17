@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number: ");
+        System.out.println("Enter the number till which fibonacci has to be printed: ");
         int n = sc.nextInt();
         Main a = new Main();
         for (int i = 0; i < n; i++) {
